@@ -194,7 +194,7 @@ onInitialStageClick=()=>{
 					/>
 					:(this.state.places.length > 0
 						?<div className='w-100 mt3 flex flex-column items-center'>
-							<div className='w-90 flex flex-column items-center h-50 overflow-y-scroll ba'>
+							<div className='w-90 flex flex-column items-center h-100 overflow-y-scroll ba'>
 							{
 								this.state.places.map((num,i)=>{
 									return(
