@@ -27,7 +27,7 @@ class Placecard extends Component{
 					
 					<aside className='w-90 mt3 flex flex-column'>
 						<h3 className='mv0 tl'>Review Summary</h3>
-						<div className='mt3 h-50 overflow-y-scroll'>
+						<div className='mt3 h-75 overflow-y-scroll'>
 						{
 							this.props.reviews.map((num,i)=>{
 								return(

@@ -37,7 +37,6 @@ displayTimings=()=>{
 	render(){
 		return(
 			<section className='w-90 flex flex-column items-start'>
-			{console.log(this.props.open_now)}
 				<div className='w-90 f6 pv1 flex justify-around items-center tc ba'>
 					<img className='w-10' src={location} alt='' width={30} height={30}/>
 					<p className='w-80 tl'>{this.props.address}</p>
