@@ -27,10 +27,7 @@ class Searchoptions extends Component{
 
 		}
 
-
-
-
-	render(){
+render(){
 		return(
 			<div className='center w-90 tl ba b--gray mt3 ph2'>
 				<h3>Search this area</h3>
