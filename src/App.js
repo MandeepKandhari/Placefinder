@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar/Navbar';
-import Searchresults from './components/Searchresults/Searchresults';
-import MapContainer from './MapContainer';
+import Searchresults from './components/Results/Searchresults/Searchresults';
+import MapContainer from './components/MapContainer/MapContainer';
 import './App.css';
 import 'tachyons';
 
@@ -26,7 +26,6 @@ class App extends Component {
   }
 
 coordsInitialize=()=>{
-  console.log(this.state.initialCoords)
   this.setState(Object.assign(this.state.searchCoords, {latitude:'', longitude:''}));
   this.setState(Object.assign(this.state.centerCoords, {latitude:this.state.initialCoords.latitude, longitude:this.state.initialCoords.longitude}));
   this.setState({placesArray:[]})

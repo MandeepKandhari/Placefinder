@@ -2,6 +2,7 @@
   "name": "place-finder",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://MandeepKandhari.github.io/Placefinder",
   "dependencies": {
     "@google/maps": "^0.5.5",
     "google-maps-react": "^2.0.2",
@@ -15,9 +16,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "tachyons": "^4.10.0"
   }
 }
