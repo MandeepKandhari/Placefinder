@@ -31,7 +31,7 @@ placePhotos=()=>{
 
 	render(){
 		return(
-			<article className='w-90 ba b--black bw1 grow mt3 flex justify-around pointer' onClick={()=>this.props.onContainerClick(this.props.id)}>
+			<article className='w-90 ba b--black bw1 grow mv2 flex justify-around pointer' onClick={()=>this.props.onContainerClick(this.props.id)}>
 				<section className='w-60 tl ma2 ph1 flex flex-column items-start'>
 					<h4 className='mv0'>{this.props.name}</h4>
 					<div className='f6 ' >
