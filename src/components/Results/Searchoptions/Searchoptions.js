@@ -11,7 +11,7 @@ import './Searchoptions.css';
 class Searchoptions extends Component{
 	
 	nearByPlaces=(searchType)=>{
-		fetch('http://localhost:3002/placesNearby',{
+		fetch('https://hybrid-bastion-218103.appspot.com/placesNearby',{
 			method:'put',
 			headers:{'Content-Type':'application/json'},
 			body:JSON.stringify({
