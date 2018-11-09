@@ -31,7 +31,7 @@ render(){
 		return(
 			<div className='center w-90 tl ba b--gray mt3 ph2'>
 				<h3>Search this area</h3>
-				<p className='red f6'>Note: One can only search for restaurants and coffee places </p>
+				<p className='red f6'>Note: Google api returns results only for restaurants and coffee places </p>
 				<div className='mt3 pa3 flex flex-wrap justify-center'>
 					<p className='link pointer' onClick={()=>this.nearByPlaces('restaurant')}><img className='ph3 image' src={dish}/></p>
 					<p className='link pointer o-30' onClick={()=>this.nearByPlaces('lodging')}><img className='ph3 image' src={bed}/></p>
