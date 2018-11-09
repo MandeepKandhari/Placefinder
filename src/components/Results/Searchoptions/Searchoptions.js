@@ -31,14 +31,15 @@ render(){
 		return(
 			<div className='center w-90 tl ba b--gray mt3 ph2'>
 				<h3>Search this area</h3>
+				<p className='red f6'>Note: One can only search for restaurants and coffee places </p>
 				<div className='mt3 pa3 flex flex-wrap justify-center'>
 					<p className='link pointer' onClick={()=>this.nearByPlaces('restaurant')}><img className='ph3 image' src={dish}/></p>
-					<p className='link pointer' onClick={()=>this.nearByPlaces('insurance_agency')}><img className='ph3 image' src={bed}/></p>
-					<p className='link pointer' onClick={()=>this.nearByPlaces('bank')}><img className='ph3 image' src={bank}/></p>
+					<p className='link pointer o-30' onClick={()=>this.nearByPlaces('lodging')}><img className='ph3 image' src={bed}/></p>
+					<p className='link pointer o-30' onClick={()=>this.nearByPlaces('bank')}><img className='ph3 image' src={bank}/></p>
 					<p className='link pointer' onClick={()=>this.nearByPlaces('cafe')}><img className='ph3 image' src={coffee}/></p>
-					<p className='link pointer' onClick={()=>this.nearByPlaces('supermarket')}><img className='ph3 image' src={cart}/></p>
-					<p className='link pointer' onClick={()=>this.nearByPlaces('gas_station')}><img className='ph3 image' src={gasstation}/></p>
-					<p className='link pointer' onClick={()=>this.nearByPlaces('hospital')}><img className='ph3 image' src={png}/></p>
+					<p className='link pointer o-30' onClick={()=>this.nearByPlaces('supermarket')}><img className='ph3 image' src={cart}/></p>
+					<p className='link pointer o-30' onClick={()=>this.nearByPlaces('gas_station')}><img className='ph3 image' src={gasstation}/></p>
+					<p className='link pointer o-30' onClick={()=>this.nearByPlaces('hospital')}><img className='ph3 image' src={png}/></p>
 				</div>
 			</div>
 		);
